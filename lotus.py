@@ -7,9 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/15K8uU2Roo9JmQDR87jZbmNaWiOu9qKU1
 """
 
-!pip install streamlit plotly biopython transformers torch pandas
-!pip install streamlit pdfplumber plotly graphviz pyngrok biopython transformers torch pandas
-!apt-get install graphviz  # ضروري عشان رسمة PRISMA تشتغل
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -267,7 +265,7 @@ Original file is located at
 #             st.info("Upload PDFs in Tab 3 to see the analysis.")
 
 # 1. تثبيت المكتبات اللازمة
-!pip install streamlit pyngrok
+
 
 # 2. التثبيت الرسمي لـ ngrok (بدل التحميل اليدوي اللي بيفشل)
 # بنضيف المفتاح والمستودع الرسمي عشان نضمن نسخة سليمة
