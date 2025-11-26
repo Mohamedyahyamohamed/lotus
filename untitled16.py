@@ -275,7 +275,6 @@ NGROK_AUTH_TOKEN = "35mnHgPcYSN3q3zEptx8etPazvV_7Y14kUWrgEAgYQM6jrVum"
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 # تشغيل التطبيق في الخلفية
-!streamlit run app.py &>/dev/null&
 
 # فتح النفق
 time.sleep(5)
