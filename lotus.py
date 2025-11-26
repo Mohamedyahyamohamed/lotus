@@ -269,9 +269,8 @@ Original file is located at
 
 # 2. التثبيت الرسمي لـ ngrok (بدل التحميل اليدوي اللي بيفشل)
 # بنضيف المفتاح والمستودع الرسمي عشان نضمن نسخة سليمة
-!curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
-!echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list
-!sudo apt update && sudo apt install ngrok
+
+
 
 # 3. الكود الخاص بتشغيل التطبيق
 from pyngrok import ngrok, conf
