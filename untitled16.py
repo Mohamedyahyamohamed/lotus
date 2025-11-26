@@ -9,8 +9,7 @@ Original file is located at
 
 
 
-!pip install streamlit pdfplumber plotly graphviz pyngrok biopython transformers torch pandas
-!apt-get install graphviz  # ضروري عشان رسمة PRISMA تشتغل
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
